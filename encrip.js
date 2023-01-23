@@ -7,7 +7,10 @@ function encriptar(frase){
     var textoEncriptado = textoEncriptado.replace(/a/img, "ai");
     var textoEncriptado = textoEncriptado.replace(/u/img, "ufat");
     
-    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado
+    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado;
+    document.getElementById("botoncopiar").style.display = "show";
+    document.getElementById("botoncopiar").style.display = "inherit";
+
 
 
 }
